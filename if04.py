@@ -8,6 +8,17 @@ def main(a,b,c):
     returns:
         integer: the number of positive numbers in the given numbers
     """
-    if a > 0,b > 0,c > 0: 
-       return (a+b+c)
-print(main(1,2,-41))
+    if a > 0:
+        x1 = 1
+    else: 
+        x1 = 1
+    if b > 0:
+        x2 = 1
+    else: 
+        x2 = 0
+    if c > 0:
+        x3 = 1
+    else: 
+        x3 = 0    
+    return x1+x2+x3
+print(main(4,6,-1))
