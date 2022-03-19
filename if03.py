@@ -11,8 +11,5 @@ def main(a):
     if (a == 0):
         return 10
     if (a < 0):
-        return a
-
-
-    #return
-print(main(1))
+        return a-2
+print(main(-9))
