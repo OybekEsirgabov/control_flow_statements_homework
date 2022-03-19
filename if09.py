@@ -16,6 +16,4 @@ def main(a):
         return "True"
     if (a//10+a%10*10 > a):
         return "False"
-    
-    #return a//10+a%10*10
-print(main(48))
+print(main(57))
